@@ -31,14 +31,13 @@ pipeline {
 
             when{
                 expression{
-                    params.executeTests = true
+                    params.executeTests == true
                 }
             }
             steps {
                 script{
                     echo "UnitTest in Junit"
                 }
-                
             }
         }
 
