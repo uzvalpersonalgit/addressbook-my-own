@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.preethidevops.tutorial</groupId>
-  <artifactId>addressbook</artifactId>
+  <artifactId>addressbook-my-own</artifactId>
   <packaging>war</packaging>
-  <version>4.0</version>
-  <name>Vaadin Addressbook example</name>
+  <version>1.0</version>
+  <name>Vaadin addressbook-my-own example</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <failOnMissingWebXml>false</failOnMissingWebXml>
@@ -201,7 +201,7 @@
         </configuration>
       </plugin>
     </plugins>
-    <finalName>addressbook</finalName>
+    <finalName>addressbook-my-own</finalName>
   </build>
   <reporting>
     <plugins>
@@ -367,7 +367,7 @@
             <dependencies>
               <dependency>
                 <groupId>com.preethidevops.tutorial</groupId>
-                <artifactId>addressbook</artifactId>
+                <artifactId>addressbook-my-own</artifactId>
                 <version>${project.version}</version>
               </dependency>
             </dependencies>
@@ -406,7 +406,7 @@
             <dependencies>
               <dependency>
                 <groupId>com.preethidevops.tutorial</groupId>
-                <artifactId>addressbook</artifactId>
+                <artifactId>addressbook-my-own</artifactId>
                 <version>${project.version}</version>
               </dependency>
             </dependencies>
@@ -447,7 +447,7 @@
             <artifactId>maven-checkstyle-plugin</artifactId>
             <version>2.9.1</version>
             <configuration>
-              <configLocation>addressbook-build/checkstyle.xml</configLocation>
+              <configLocation>addressbook-my-own-build/checkstyle.xml</configLocation>
             </configuration>
           </plugin>
           <plugin>
@@ -488,7 +488,7 @@
     <repository>
       <id>central</id>
       <name>a0spitu3l0iky-artifactory-primary-0-releases</name>
-      <url>https://jforgartifactory.jfrog.io/artifactory/addressbook-v1-libs-release</url>
+      <url>https://jforgartifactory.jfrog.io/artifactory/addressbook-my-own-v1-libs-release</url>
     </repository>
   </distributionManagement>
 </project>
