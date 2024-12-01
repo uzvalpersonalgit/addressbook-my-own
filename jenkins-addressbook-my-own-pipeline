@@ -28,5 +28,24 @@ pipeline {
             }
         }
 
+        stage('code-coverage') {
+            steps {
+                script{
+                    echo "Code Coverage by jacoco"
+                }
+                
+            }
+        }
+
+        stage('artifact-publish') {
+            steps {
+                script{
+                    echo "publish artifact into Jfrog"
+                }
+                
+            }
+        }
+
+
     }
 }
