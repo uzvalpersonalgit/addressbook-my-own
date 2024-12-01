@@ -1,0 +1,32 @@
+pipeline {
+    agent any //which means whichever server/machine is available
+
+    stages {
+        stage('compile') {
+            steps {
+                script{
+                    echo "complie the code"
+                }
+            }
+        }
+        
+         stage('code-review') {
+            steps {
+                script{
+                    echo "code review using pmd plugin"
+                }
+                
+            }
+        }
+        
+         stage('unittest') {
+            steps {
+                script{
+                    echo "UnitTest in Junit"
+                }
+                
+            }
+        }
+
+    }
+}
