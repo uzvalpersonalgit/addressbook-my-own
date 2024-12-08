@@ -4,7 +4,7 @@
   <groupId>com.preethidevops.tutorial</groupId>
   <artifactId>addressbook-my-own</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>2.0</version>
   <name>Vaadin addressbook-my-own example</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -484,11 +484,11 @@
       </reporting>
     </profile>
   </profiles>
-  <distributionManagement>
+ <distributionManagement>
     <repository>
-      <id>central</id>
-      <name>a0spitu3l0iky-artifactory-primary-0-releases</name>
-      <url>https://jforgartifactory.jfrog.io/artifactory/addressbook-my-own-v1-libs-release</url>
+        <id>central</id>
+        <name>a0spitu3l0iky-artifactory-primary-0-releases</name>
+        <url>https://jforgartifactory.jfrog.io/artifactory/addressbook-v1-libs-release</url>
     </repository>
-  </distributionManagement>
+</distributionManagement>
 </project>
